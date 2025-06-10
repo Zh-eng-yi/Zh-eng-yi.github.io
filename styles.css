@@ -11,8 +11,11 @@ body {
 }
 
 .wrapper {
-  width: 460px;
-  height: 300px;
+  /* width: 460px; */
+  /* height: 300px; */
+  aspect-ratio: 46 / 30;
+  width: min(40vw, calc(40vh * (46 / 30)));
+  height: auto;
   position: relative;
 }
 
@@ -41,7 +44,7 @@ body {
   background-color: #4080a7;
 }
 
-.envelope__front {
+/* .envelope__front {
   width: 0;
   height: 0;
   position: absolute;
@@ -50,6 +53,13 @@ body {
   border-bottom: 150px solid #C4DFF0;
   border-left: 230px solid #a4d4f2;
   z-index: 4;
+} */
+
+.envelope__front {
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
 }
 
 .envelope__lid-one {
