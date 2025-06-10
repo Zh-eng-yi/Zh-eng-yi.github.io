@@ -158,7 +158,7 @@ body {
 
 .letter__header h1 {
   margin: 0;
-  font-size: 28px;
+  /* font-size: 2rem; */
   animation-delay: 1.2s;
 }
 
@@ -226,15 +226,6 @@ body {
   margin-top: 0px;
   padding-bottom: 32px;
   animation-delay: 3.4s;
-}
-
-.letter__footer {
-  background-color: #EFBBF0;
-  text-align: center;
-  padding: 16px;
-  font-size: 14px;
-  color: #555;
-  animation-delay: 3.0s;
 }
 
 @keyframes letter--fadeInUp {
