@@ -1,0 +1,8 @@
+Credits for Third-Party Resources Used in This Project
+------------------------------------------------------
+
+1. School icon (favicon)
+   - Author: Freepik
+   - Source: https://www.flaticon.com/free-icons/school
+   - License: Free for personal and commercial use with attribution
+   - Attribution: "Icon made by Freepik from www.flaticon.com"
