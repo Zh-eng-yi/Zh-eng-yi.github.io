@@ -17,7 +17,7 @@ wrapper.addEventListener('click', function () {
 function startClickAnimation() {
     console.log('Click animation started');
     envelope.classList.add('envelope--animate-fade-out');
-    letter.style.height = letter.scrollHeight + 'px';
+    // letter.style.height = letter.scrollHeight + 'px';
     letter.classList.add('letter--animate-scale-up');
     texts.forEach(text => {
         text.classList.add('letter--animate-fadeInUp');
