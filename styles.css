@@ -143,10 +143,9 @@ body {
 .letter--animate-scale-up {
   transform: translate(-50%, -50%);
   transition: width 0.8s ease, height 0.8s ease, transform 0.8s ease;
-  /* width: min(80vw, calc(80vh * (2 / 3))); */
-  height: min(80vh, calc(100vw * (5 / 3)));
-  /* aspect-ratio: 3 / 5; */
-  /* max-height: 1000px; */
+  width: min(90vw, calc(80vh * 2 / 3));
+  height: 80vh;
+  aspect-ratio: 2 / 3;
   transition-delay: 0.4s;
 }
 
@@ -172,7 +171,7 @@ body {
 .letter__content p,
 .letter__footer {
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(40%);
 }
 
 .letter__header h1 {
@@ -182,9 +181,9 @@ body {
 }
 
 .letter__content {
-  padding-top: 10px;
-  padding-left: 56px;
-  padding-right: 64px;
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
   color: #333;
   line-height: 1.6;
 }
@@ -208,7 +207,7 @@ body {
 }
 
 .letter__content p:nth-of-type(4) {
-  margin-top: 5px;
+  margin-top: 1em;
   margin-bottom: 0px;
   animation-delay: 2.2s;
 }
